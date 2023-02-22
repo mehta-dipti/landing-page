@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap w/ Webpack</title>
+  </head>
+  <body>
+    <!-- <div class="container-sm"> -->
+    <header class="header container-fluid">
+      <nav>
+        <div class="row pt-4">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-1">
+            <ul class="nav">
+              <li class="navbar-brand me-5">
+                <img src="./assets/1. header/Logo.png" />
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-2"></div>
+          <div class="col-sm-7">
+            <ul class="nav">
+              <li class="nav-item ms-5">
+                <a class="nav-link link-light active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light">Contact</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-dark rounded-pill">Download CV</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="header-content">
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-4">
+            <h1>
+              Hey, I am<br />
+              <p class="mask-text">Diane Glover</p>
+            </h1>
+            <button type="button" class="btn my-btn rounded-pill">Web developer</button>
+            <hr />
+            <a class="my-link"> Hire me</a>
+            <p class="text-secondary fw-lighter pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-3"></div>
+          <div class="col-sm-3">
+            <img src="./assets/1. header/Social Icons.png" class="social-icons" />
+            <img src="../" alt="" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <div class="container-fluid who-am-I p-0">
+      <div class="row">
+        <!-- <div class="col-sm-2"></div> -->
+        <div class="col-sm-6 p-0 me-4 d-flex left-section">
+          <img src="./assets/2. who am i/Rounded Rectangle 2.png" id="img1" />
+          <img src="./assets/2. who am i/Image.png" id="img2" />
+        </div>
+        <div class="col-sm-4 p-0">
+          <h6>Who AM I?</h6>
+          <h3>Know More About me</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.<br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          </p>
+          <button class="btn my-btn-secondary rounded-pill">Learn More</button>
+          <hr />
+          <a class="my-link"> Hire me</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid what-can-I-do">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4 p-0 services">
+          <h6>What Can I Do?</h6>
+          <h3>Services I Provide</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="video-container">
+            <img src="./assets/3. what can i do/image.png" id="img3" class="video" />
+            <img src="./assets/3. what can i do/play-icon.png" id="img3" class="play-button" />
+          </div>
+        </div>
+        <div class="col-sm-4 p-0 ms-4 tech-section">
+          <table class="table table-bordered rounded-4 overflow-hidden align-middle text-center">
+            <tbody class="py-5">
+              <tr>
+                <td>
+                  <img src="./assets/3. what can i do/Icon-3.png" />
+                  <h6>Web App Development</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor</p>
+                  <a class="my-link-secondary">Learn More</a>
+                </td>
+                <td>
+                  <img src="./assets/3. what can i do/Icon-2.png" />
+                  <h6>Digital Marketing</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor</p>
+                  <a class="my-link-secondary">Learn More</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="shadow p-3 mb-5 bg-body rounded">
+                  <img src="./assets/3. what can i do/Icon-1.png" />
+                  <h6>Programming & Tech</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor</p>
+                  <a class="my-link-secondary">Learn More</a>
+                </td>
+                <td>
+                  <img src="./assets/3. what can i do/Icon.png" />
+                  <h6>Writing & Translation</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor</p>
+                  <a class="my-link-secondary">Learn More</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>

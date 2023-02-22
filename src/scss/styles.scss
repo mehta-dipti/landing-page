@@ -1,0 +1,173 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+$primary: #fcb532;
+$secondary: #ff4136;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  // font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.content-left-padding {
+  padding-left: 16.666%;
+}
+
+header {
+  height: 100vh;
+  background-image: url("../../dist/assets/1. header/background-image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+
+.row {
+  margin: 0;
+}
+
+.my-btn {
+  background-color: #f6b23c1f;
+  color: $primary;
+  border: none;
+  margin-right: 10px;
+}
+
+.my-link {
+  color: $primary;
+  text-decoration: none;
+  margin-left: 80px;
+  background: -webkit-linear-gradient(#ee5a0f, #ffc146);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+hr {
+  width: 60px;
+  display: inline-block;
+  color: #fcb532;
+  text-align: center;
+  position: absolute;
+}
+
+.header-content {
+  padding-top: 180px;
+}
+
+.header-content h1,
+.mask-text {
+  font-size: 50px;
+}
+
+.social-icons {
+  height: 70%;
+}
+
+.mask-text {
+  background: url("../../dist/assets/1. header/background-image.png");
+  background-clip: text;
+  background-position: -55% 30%;
+  font-size: 55px;
+  line-height: 60px;
+  font-weight: 800;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h6 {
+  color: $primary;
+}
+
+.who-am-I {
+  & .row {
+    padding-top: 50px;
+  }
+}
+
+.what-can-I-do {
+  & .row {
+    padding-top: 10px;
+  }
+}
+
+.my-btn-secondary {
+  color: white;
+  background: -webkit-linear-gradient(#ffcc66, #ff7b38);
+  border: none;
+  padding: 8px 30px;
+  margin-right: 10px;
+}
+
+#img1 {
+  width: 455px;
+  height: 500px;
+}
+
+#img2 {
+  width: 400px;
+  position: absolute;
+  left: 220px;
+}
+
+#img3 {
+  width: 400px;
+}
+
+.video-container {
+  position: relative;
+}
+
+.video {
+  position: absolute;
+}
+
+.play-button {
+  position: absolute;
+  scale: 15%;
+  top: -85px;
+  left: 0;
+}
+
+.services {
+  margin-left: -35px;
+  margin-top: 40px;
+  width: 450px;
+}
+
+.abc {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.tech-section {
+  & .col {
+    // border-radius: 10px;
+    border: 1px solid rgb(241, 241, 241);
+    padding: 10px;
+  }
+
+  & h6 {
+    color: black;
+  }
+
+  & img {
+    margin: 15px;
+  }
+
+  & .my-link-secondary {
+    color: $primary;
+    text-decoration: underline;
+  }
+
+  & td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
